@@ -1,0 +1,11 @@
+import numpy as np
+x=np.array([[1,2],[3,4]])
+y=np.array([[5,6],[7,8]])
+print("first matrix is ")
+print(x)
+print("second matrix is")
+print(y)
+print("subtract of 2 matrices")
+print(np.subtract(x,y))
+print("sum of diagonal elements of first matrix is",np.trace(x))
+print("sum of diagonal elements of second matrix is",np.trace(y))
